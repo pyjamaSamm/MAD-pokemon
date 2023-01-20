@@ -1,4 +1,3 @@
-
 const fetchPokemonData = async () => {
     const pokemonDetails = await fetch(`https://pokeapi.co/api/v2/pokemon?`);
     const data = await pokemonDetails.json()
