@@ -1,6 +1,3 @@
-
-
-
 $(".loading").height($(window).height());
 $(".loading").width($(window).width());
 
@@ -46,4 +43,3 @@ $("body").on("click", function (e) {
     }).removeClass("original");
     
 });
-
