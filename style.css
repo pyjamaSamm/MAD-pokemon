@@ -4,11 +4,11 @@
 
 body {
     overflow: hidden;
+    background-image: url("http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/94c309accb3e906.png");
     
 }
     
 .loading {
-    background-color: #FFF ;
     width: 100%;
     display: block;
     margin-left: auto;
