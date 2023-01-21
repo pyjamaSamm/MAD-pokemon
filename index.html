@@ -11,7 +11,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <body>
-    <div class="loader">
+
+    <!--code for the loader-->
+    <div class="loader" id="loa">
         <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          viewBox="0 0 330 331.7" enable-background="new 0 0 330 331.7" xml:space="preserve">
           <circle id="center" fill="#FFFFFF" cx="165" cy="165.9" r="36.5"/>
@@ -39,5 +41,31 @@
     </svg>
     
     </div>
+
+    <!--The main body starts from here-->
+
+    <div class="content">
+        <h1>Hello</h1>
+    </div>
+
+
+
+<!--This script loads the loader for 6 seconds and then remove it-->
+    <script>
+        
+        $(window).on('load', function(){
+            $("#loa").fadeOut(6000);
+            $(".content").fadeIn(10000);
+  
+ 
+});
+
+function removeLoader(){
+    $( "#loa" ).fadeOut(500, function() {
+    
+      $( "#loa" ).remove();  
+  });  
+}
+      </script>
 </body>
 </html>
