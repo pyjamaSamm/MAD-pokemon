@@ -2,13 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Pokemon</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    
+    <link rel="stylesheet" href="pokeinfo.css">
+
+    <script defer src="pokeinfo.js"></script>
+
+    <title>Pokedex</title>
 </head>
 <body>
-    <h1>Pokemons</h1>
-    <script src="pokemon.js"></script>
+
+    <main>
+     
+        <img src="#" alt="pokemon"  class="pokemon_image">
+        <img src="https://github.com/manualdodev/pokedex/blob/main/images/pokedex.png?raw=true" alt="pokedex" class="pokedex">
+
+        <h1 class="pokemon_data">
+            <span class="pokemon_number"></span> -
+            <span class="pokemon_name"></span> <br>
+             
+        </h1>
+
+        <form class="form">
+            <input type="search" class="input_search" placeholder="Search" required>
+        </form>
+        <div class="buttons">
+           <button class="botao anterior"> Next</button>
+           <button class="botao proximo"> Previous</button>
+        </div>
+        
+
+                
+    </main>
 </body>
 </html>
