@@ -29,7 +29,7 @@ ul {
 
 .navbar {
   background: #1e3363;
-  color: #FF0000;
+  color:  #FFCC00;
   padding: 15px;
   width: 100%;
   height: 65px;
@@ -63,10 +63,10 @@ ul {
 }
 .navbar ul.links li a {
   text-decoration: none;
-  color: #F44F5A;
+  color:  #FFCC00;
 }
 .navbar ul.links li:hover {
-  background: #F44F5A;
+  background:  #FFCC00;
   cursor: pointer;
   height: 30px;
 }
@@ -149,7 +149,7 @@ ul {
     left: 0;
   }
   .navbar.collapsed .links a {
-    color: #FF0000;
+    color:  #FFCC00;
   }
   .navbar.collapsed .links li {
     width: 100%;
