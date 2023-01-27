@@ -60,6 +60,7 @@
  .input_search{
     width: 100%;
     padding: 5%;
+    margin-left: 20%;
     outline: none;
     border: 2px solid black;
     border-radius: 5px;

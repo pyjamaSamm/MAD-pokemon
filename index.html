@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="navbar.css">
    
     <title>Pokemon</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
@@ -42,15 +43,49 @@
     
     </div>
 
-    <!--The main body starts from here-->
+<!--The main body starts from here-->
+
+  
+
+
+
+    
+
+    
 
     <div class="content">
-        <h1>Hello</h1>
+        <div class="navbar">
+	
+            <div class="logo">
+                <img src="pokeball.png" alt="">
+            </div>
+            
+            
+            <ul class="links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./pokemon-info.html">Pokedex</a></li>
+                <li><a href="./pokehistory.html">Poke History</a></li>
+                
+            </ul>
+            
+            
+            
+            <div class="toggle">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            
+            
+        </div>
+    
     </div>
 
 
 
 <!--This script loads the loader for 6 seconds and then remove it-->
+
+<script  src="./navbar.js"></script>
     <script>
         
         $(window).on('load', function(){
