@@ -4,14 +4,16 @@
 }
 
 
-.carousel{
+.carousel {
     height: 200px;
     display: flex;
 }
-.carousel div{
+
+.carousel div {
     margin-left: 50px;
     margin-right: 50px;
 }
+
 @-webkit-keyframes scroll {
     0% {
         -webkit-transform: translateX(0);
@@ -56,7 +58,21 @@
     width: 200px;
     z-index: 2;
 }
-.slide img{
+
+.info {
+    font-size: 1.4rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    margin-top: -140px;
+    margin-bottom: 100px;
+}
+
+.info p {
+    color: #1E3263;
+}
+
+.slide img {
     /* padding-left: 100px;
     padding-right: 100px; */
 
@@ -84,4 +100,108 @@
 .slider .slide {
     height: 100px;
     width: 250px;
+}
+
+.signUpContainer {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+}
+
+.signUpLogo img {
+    width: 15vw;
+    padding-top: 30px;
+}
+
+.signUpInfo {
+    z-index: 5;
+    height: 400px;
+    width: 50%;
+}
+
+.signUpAnimation {
+    height: 400px;
+    width: 50%;
+}
+
+.signUpAnimation img {
+    margin-left: 10%;
+    width: 36vw;
+}
+
+.signUpForm {
+    background-color: rgba(255, 255, 255, .1);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    height: 400px;
+    width: 60%;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+@media(max-width:650px) {
+    .signUpLogo img {
+        min-width: 200px;
+    }
+
+    .signUpContainer {
+        flex-direction: column-reverse;
+        height: 700px;
+    }
+
+    .signUpAnimation img {
+        margin-left: -30%;
+        width: 80vw;
+    }
+
+    .signUpInfo {
+        width: 90%;
+        height: 600px;
+    }
+}
+
+.signLabel {
+    color: white;
+    font-size: 1.2rem;
+    text-align: left;
+
+}
+
+.formParams {
+    margin-top: 15px;
+}
+
+.signUpForm input {
+    outline: 0;
+    background-color: rgba(255, 255, 255, .4);
+    width: 70%;
+    border: 0;
+    border-radius: 5px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+
+.submitButton {
+    width: 13vw !important;
+    font-size: 1rem !important;
+    margin-top: 20px !important;
+    color: white !important;
+}
+
+.submitButton:hover {
+    cursor: pointer;
+    color: rgb(244, 222, 77) !important;
+    background-color: #3760a2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important;
+}
+
+@media(max-width: 650px) {
+    .submitButton {
+        width: 20vw !important;
+    }
 }
